@@ -1,0 +1,8 @@
+main
+    each article in data.main.articles
+        article(class=article.class)
+            h1 !{article.headline}
+            each section in article.sections
+                section
+                    h2 !{section.headline}
+                    p !{section.paragraph}

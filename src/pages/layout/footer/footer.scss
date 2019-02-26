@@ -1,0 +1,9 @@
+#layout > footer {
+  display: flex;
+  background-color: $color-grey-light;
+  padding: $padding;
+  nav {
+    display: flex;
+    align-items: center;
+  }
+}

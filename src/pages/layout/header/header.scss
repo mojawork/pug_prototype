@@ -1,0 +1,22 @@
+#layout > header {
+  display: flex;
+  background-color: $color-grey-light;
+  padding: $padding;
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  a {
+    margin: $margin * 0.5;
+    padding: $padding *0.5;
+    border: 1px solid $color-grey;
+    background-color: $color-grey-light-ultra;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      color: $color-white;
+      background-color: $color-grey;
+      text-decoration: underline;
+    }
+  }
+}

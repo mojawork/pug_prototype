@@ -1,0 +1,21 @@
+{
+  "name": "pug prototype",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Markus Lungwitz",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "js-yaml": "^3.11.0",
+    "merge-stream": "^1.0.1",
+    "pug": "^2.0.0-rc.4",
+    "sass-rem": "^2.0.0"
+  },
+  "dependencies": {}
+}

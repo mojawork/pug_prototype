@@ -1,0 +1,51 @@
+
+
+//-- config --
+@import "config/colors";
+@import "config/fonts";
+@import "config/globals";
+//@import "config/layout";
+//-- config --
+
+//-- functions --
+//@import "mixin/breakpoints";
+//@import "mixin/ie11";
+//@import "mixin/calc-font-size";
+//-- functions --
+
+//-- config --
+
+//@import "config/svg_icons";
+//-- config --
+
+//-- debug --
+//@import "debug/config";
+//@import "debug/debug";
+//-- debug --
+
+
+
+@import "../pages/pages";
+
+
+// -- component layout --
+@import "../pages/layout/header/header";
+@import "../pages/layout/main/home/home";
+@import "../pages/layout/footer/footer";
+// -- component layout --
+
+
+// -- component teasers --
+
+//-- component sets --
+//@import "../components/sets/01/set";
+//@import "../components/sets/02/set";
+//@import "../components/sets/03/set";
+//@import "../components/sets/04/set";
+//@import "../components/sets/05/set";
+//@import "../components/sets/06/set";
+//@import "../components/sets/07/set";
+//@import "../components/sets/08/set";
+//-- component sets --
+
+

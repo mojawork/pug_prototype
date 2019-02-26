@@ -1,0 +1,58 @@
+language: '_de'
+pageName: 'index'
+template: './src/pages/index.pug'
+header:
+  logo: ''
+  logoAlt: ''
+  logoLink: ''
+  nav:
+    - page:
+      title: 'index'
+      link: 'index.html'
+
+main:
+  articles:
+  - article:
+    class: 'firstclass'
+    headline: 'First Article'
+    sections:
+      - section:
+        headline: 'First Article - First Section Headline'
+        paragraph: 'First Article - First Section Paragraph'
+      - section:
+        headline: 'First Article - Second Section Headline'
+        paragraph: 'First Article - Second Section Paragraph'
+      - section:
+        headline: 'First Article - Third Section Headline'
+        paragraph: 'First Article - Third Section Paragraph'
+  - article:
+    class: 'secondclass'
+    headline: 'Second Article'
+    sections:
+      - section:
+        headline: 'Second Article - First Section Headline'
+        paragraph: 'Second Article - First Section Paragraph'
+      - section:
+        headline: 'Second Article - Second Section Headline'
+        paragraph: 'Second Article - Second Section Paragraph'
+      - section:
+        headline: 'Second Article - Third Section Headline'
+        paragraph: 'Second Article - Third Section Paragraph'
+  - article:
+    class: 'thirdclass'
+    headline: 'Third Article'
+    sections:
+      - section:
+        headline: 'Third Article - First Section Headline'
+        paragraph: 'Third Article - First Section Paragraph'
+      - section:
+        headline: 'Third Article - Second Section Headline'
+        paragraph: 'Third Article - Second Section Paragraph'
+      - section:
+        headline: 'Third Article - Third Section Headline'
+        paragraph: 'Third Article - Third Section Paragraph'
+
+footer:
+  footline: 'footline'
+  info: "info"
+  mail: "E-Mail"

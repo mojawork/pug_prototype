@@ -1,0 +1,18 @@
+#layout > main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: $margin;
+  background-color: $color-grey-light;
+  padding: $padding;
+  h1 {
+    padding: $padding;
+    background-color: $color-grey-light-ultra;
+  }
+  article:first-of-type {
+    grid-column-start: span 2;
+  }
+  section {
+    background-color: $color-grey-light-ultra;
+    padding: $padding;
+  }
+}

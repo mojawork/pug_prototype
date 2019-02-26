@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p, li, a {
+  font-size: 1.2rem;
+  color: $color-black;
+}
+
+#layout {
+  display: grid;
+  grid-template-rows: auto  1fr auto;
+  grid-row-gap: $margin;
+  padding : $padding;
+  min-height: 100%;
+}
